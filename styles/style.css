@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.font-work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.heading-conteiner {
+    max-width: 524px;
+    text-align: right;
+    margin-right: 230px;
+
+}
+
+.heading-conteiner h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.heading-conteiner p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#failure,
+#plan {
+    padding-top: 130px;
+}
+
+#failure .failure-container {
+    width: 67%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+#failure .failure-container img {
+    max-width: 570px;
+}
+
+#failure .failure-container .failure-text {
+    max-width: 426px;
+    max-height: 400px;
+    margin-left: 87px;
+}
+
+.failure-container .failure-text h1 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-container .failure-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-container .failure-text ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.tick {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+#plan .plan-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#plan .plan-container .plan-text h2 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-container .plan-text .plan-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card .card-info img {
+    max-width: 93px;
+    margin-bottom: 15px;
+}
+
+.plan-card .card-info h3 {
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-card .card-info p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+.plan-container .plan-banner {
+    height: 301px;
+    margin-top: 124px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 64px;
+}
+
+.plan-banner .banner-text {
+    max-width: 460px;
+    text-align: left;
+    padding-top: 59px;
+}
+
+.plan-banner .banner-text h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.plan-banner .banner-text .btn, .newsletter .btn {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #151414;
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-text {
+    max-width: 485px;
+}
+
+.footer-container .footer-text h2 {
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-container .footer-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-container .newsletter h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+    color: #FFFFFF;
+}
+
+.footer-container .newsletter input {
+    width: 100%;
+    padding: 21px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.footer-container .newsletter input::placeholder {
+    color: #F3F3F3;
+    font-size: 18px;
+}
+
